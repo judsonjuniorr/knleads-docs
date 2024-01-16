@@ -53,7 +53,7 @@
         },
         {
           "group": "Contatos",
-          "pages": ["features/contacts/info", "features/contacts/create"]
+          "pages": ["features/contacts/info", "features/contacts/create", "features/contacts/delete"]
         }
       ]
     },
