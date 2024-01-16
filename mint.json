@@ -45,7 +45,11 @@
       "pages": [
         {
           "group": "Espaço de trabalho",
-          "pages": ["features/workspace-create", "features/workspace-change"]
+          "pages": ["features/workspace/create", "features/workspace/change"]
+        },
+        {
+          "group": "Tags",
+          "pages": ["features/tags/info", "features/tags/create", "features/tags/delete"]
         }
       ]
     },
