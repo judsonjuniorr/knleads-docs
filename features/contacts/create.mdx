@@ -1,0 +1,141 @@
+---
+title: Formas de cadastrar um contato
+description: "Para maior praticidade, temos 3 opções de cadastro de contatos que podem ser vistos na parte superior direita."
+---
+
+<CardGroup cols={3}>
+  <Card title="Cadastro manual" icon="plus">
+    Cadastro de um contato de forma manual.
+  </Card>
+  <Card title="Importar arquivo" icon="file-import">
+    Cadastro de um contato ou mais contatos através de uma planilha excel.
+  </Card>
+  <Card title="Importar Whatsapp" icon="whatsapp">
+    Importe os contatos a partir do histórico de mensagens de uma instância do
+    whatsapp.
+  </Card>
+</CardGroup>
+
+<Tabs>
+  <Tab title="Cadastro manual">
+    Para realizar o cadastro manual, basta clicar em **“Cadastro Manual”** onde será aberto um formulário que solicitará algumas informações, de todas essas informações, somente o Nome é obrigatório.
+    <Frame>
+      <img
+        className="block dark:hidden"
+        src="/images/contacts/contacts-manual-register-light.png"
+        alt="Manual contact register Light"
+      />
+      <img
+        className="hidden dark:block"
+        src="/images/contacts/contacts-manual-register-dark.png"
+        alt="Manual contact register Dark"
+      />
+    </Frame>
+    <br/>
+    <Note>O número do Documento, Email e Número de celular, devem ser únicos dentro do mesmo espaço de trabalho.</Note>
+
+    Após preencher os campos, clique no botão **Salvar**, o sistema irá lhe redirecionar para a tela de detalhes do contato.
+
+    <Frame>
+      <img
+        className="block dark:hidden"
+        src="/images/contacts/contacts-info-light.png"
+        alt="Contact info Light"
+      />
+      <img
+        className="hidden dark:block"
+        src="/images/contacts/contacts-info-dark.png"
+        alt="Contact info Dark"
+      />
+    </Frame>
+
+  </Tab>
+  
+  <Tab title="Importar arquivo">
+    A segunda opção, seria de importação de clientes por planilha de Excel, podendo assim realizar a inclusão de múltiplos contatos de uma única vez. Vale lembrar que essa planilha segue um padrão:
+    <Frame>
+      <img
+        src="/images/contacts/contacts-import-sheet.png"
+        alt="Contacts Import Sheet"
+      />
+    </Frame>
+
+    Você pode ter acesso a esse padrão baixando o modelo pelo nosso sistema ao acessar a tela de importação.
+    <Frame>
+      <img
+        className="block dark:hidden"
+        src="/images/contacts/contacts-import-download-model-light.png"
+        alt="Contacts Import Model Download Light"
+      />
+      <img
+        className="hidden dark:block"
+        src="/images/contacts/contacts-import-download-model-dark.png"
+        alt="Contacts Import Model Download Dark"
+      />
+    </Frame>
+    <br/>
+    <Note>O número do Documento, Email e Número de celular, devem ser únicos dentro do mesmo espaço de trabalho.</Note>
+
+    Após o envio da planilha, o sistema irá lhe redirecionar para a tela de resumo da importação, onde será possível visualizar todos os contatos que serão cadastrados e suas respectivas informações.
+    <Frame>
+      <img
+        className="block dark:hidden"
+        src="/images/contacts/contacts-import-result-light.png"
+        alt="Contacts Import Result Light"
+      />
+      <img
+        className="hidden dark:block"
+        src="/images/contacts/contacts-import-result-dark.png"
+        alt="Contacts Import Result Dark"
+      />
+    </Frame>
+
+    <br/>
+    <Warning>Caso exista algum contato com erro na importação, o sistema irá ignorar o cadastro do mesmo e cadastrar os demais.</Warning>
+
+    Para finalizar a importação, clique no botão **Importar contatos** e você será redirecionado à listagem de contatos.
+
+  </Tab>
+  <Tab title="Importar Whatsapp">
+    A terceira opção, é recomendada para quem deseja fazer disparos via Whatsapp.
+    
+    Nessa opção, você pode importar os contatos a partir do histórico de mensagens de uma instância do Whatsapp.
+    
+    _[Clique aqui e confira como cadastrar uma instância do Whatsapp](/features/whatsapp)_
+
+    <Info>É necessário aguardar um tempo entre a conexão da instância com a importação de contatos, para que seja feita a sincronização de forma correta.</Info>
+
+    Selecione sua instância do Whatsapp e clique em **Importar contatos**.
+    <Frame caption="Listagem de grupos e contatos encontrados para a instância">
+      <img
+        className="block dark:hidden"
+        src="/images/contacts/contacts-wpp-import-selection-light.png"
+        alt="Contacts Import Whatsapp Selection Light"
+      />
+      <img
+        className="hidden dark:block"
+        src="/images/contacts/contacts-wpp-import-selection-dark.png"
+        alt="Contacts Import Whatsapp Selection Dark"
+      />
+    </Frame>
+
+    A listagem dos contatos/grupos encontrados será exibida, selecione os contatos/grupos que deseja importar e clique em **Importar contatos** para finalizar a importação.
+
+    Após os contatos serem importados, você será redirecionado à listagem de contatos.
+
+  </Tab>
+</Tabs>
+
+---
+
+<Note>
+  O campo **CPF** é armazenado de forma criptografada em nosso banco de dados, a
+  descriptografia é feita apenas no momento da consulta quando necessária.
+</Note>
+
+<Warning>
+  **Atenção:** Tenha em mente que o contato somente será adicionado à campanha
+  caso ele tenha a informação necessária para o mesmo como o email ou celular.
+</Warning>
+
+As informações básicas e informações de contato poderão ser utilizadas para personalizar o envio de mensagens.

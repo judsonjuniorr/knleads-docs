@@ -50,6 +50,10 @@
         {
           "group": "Tags",
           "pages": ["features/tags/info", "features/tags/create", "features/tags/delete"]
+        },
+        {
+          "group": "Contatos",
+          "pages": ["features/contacts/info", "features/contacts/create"]
         }
       ]
     },
