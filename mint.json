@@ -67,6 +67,15 @@
       ]
     },
     {
+      "group": "Provedores",
+      "pages": [
+        {
+          "group": "Whatsapp",
+          "pages": ["providers/whatsapp/info", "providers/whatsapp/create"]
+        }
+      ]
+    },
+    {
       "group": "Links úteis",
       "pages": ["links/social"]
     }
