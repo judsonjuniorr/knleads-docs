@@ -71,7 +71,7 @@
       "pages": [
         {
           "group": "Whatsapp",
-          "pages": ["providers/whatsapp/info", "providers/whatsapp/create"]
+          "pages": ["providers/whatsapp/info", "providers/whatsapp/create", "providers/whatsapp/actions"]
         }
       ]
     },

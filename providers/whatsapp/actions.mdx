@@ -1,0 +1,80 @@
+---
+title: Ações nas contas de Whatsapp
+description: "Como Editar, Desconectar ou re-autenticar."
+---
+
+<Tabs>
+  <Tab title="Editar">
+    Para editar uma conta do Whatsapp, basta clicar no botão **Editar** na tela de detalhes da conta.
+    
+    Você será redirecionado à tela de edição, onde poderá alterar o nome da conta e a quantidade de contatos por hora.
+    
+    <Info>O número não pode ser alterado.</Info>
+
+    <Frame>
+      <img
+        className="block dark:hidden"
+        src="/images/providers/whatsapp/whatsapp-edit-light.png"
+        alt="Whatsapp edit form Light"
+      />
+      <img
+        className="hidden dark:block"
+        src="/images/providers/whatsapp/whatsapp-edit-dark.png"
+        alt="Whatsapp edit form Dark"
+      />
+    </Frame>
+    
+    <br/>
+    <Tip>
+      O campo **Contatos por hora** é utilizado para limitar a quantidade de contatos aos quais serão enviadas mensagens dentro do intervalo de uma hora. Por padrão, esse valor é 30. Quanto maior o valor, maior será o risco de ter sua conta bloqueada pelo WhatsApp.
+    </Tip>
+
+  </Tab>
+
+  <Tab title="Desconectar">
+    Para realizar desconectar sua conta do Whatsapp:
+    > Você pode o fazer pelo próprio aplicativo do Whatsapp, desconectando o computador "KN Leads".
+
+    > Utilizando nosso sistema, para isso basta clicar na opção **Desconectar** na tela de detalhes da instância, ou nos 3 pontos na listagem e então desconectar.
+    
+    Realizando a desconexão pelo nosso sistema, uma modal será exibida para confirmar a ação.
+
+    <Frame>
+      <img
+        className="block dark:hidden"
+        src="/images/providers/whatsapp/whatsapp-disconnect-light.png"
+        alt="Whatsapp Disconnect Modal Light"
+      />
+      <img
+        className="hidden dark:block"
+        src="/images/providers/whatsapp/whatsapp-disconnect-dark.png"
+        alt="Whatsapp Disconnect Modal Dark"
+      />
+    </Frame>
+    <br/>
+
+    <Warning>Todas as campanhas ativas vinculadas à essa conta do Whatsapp serão pausadas.</Warning>
+
+    Na modal preencha com o número de telefone, clique no botão **Desconectar**.
+  </Tab>
+  
+  <Tab title="Re-autenticar">
+    Caso você encontre qualquer problema com o vínculo de sua conta do Whatsapp, você pode re-autenticar a mesma.
+
+    Esse processo irá desconectar sua conta, e solicitar um novo QR Code para vincular a conta novamente.
+
+    <Frame>
+      <img
+        className="block dark:hidden"
+        src="/images/providers/whatsapp/whatsapp-reauth-light.png"
+        alt="Whatsapp Re-auth Light"
+      />
+      <img
+        className="hidden dark:block"
+        src="/images/providers/whatsapp/whatsapp-reauth-dark.png"
+        alt="Whatsapp Re-auth Dark"
+      />
+    </Frame>
+
+  </Tab>
+</Tabs>
