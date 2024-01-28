@@ -52,7 +52,8 @@
           "pages": [
             "features/tags/info",
             "features/tags/create",
-            "features/tags/delete"
+            "features/tags/delete",
+            "features/tags/contacts"
           ]
         },
         {
