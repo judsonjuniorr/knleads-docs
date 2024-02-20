@@ -78,7 +78,7 @@
     },
     {
       "group": "Links úteis",
-      "pages": ["links/social"]
+      "pages": ["links/social", "links/terms"]
     }
   ],
   "footerSocials": {
