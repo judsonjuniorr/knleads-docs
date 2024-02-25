@@ -48,12 +48,12 @@
           "pages": ["features/workspace/create", "features/workspace/change"]
         },
         {
-          "group": "Tags",
+          "group": "Etiquetas",
           "pages": [
-            "features/tags/info",
-            "features/tags/create",
-            "features/tags/delete",
-            "features/tags/contacts"
+            "features/labels/info",
+            "features/labels/create",
+            "features/labels/delete",
+            "features/labels/contacts"
           ]
         },
         {
