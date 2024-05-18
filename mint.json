@@ -48,6 +48,12 @@
           "pages": ["features/workspace/create", "features/workspace/change"]
         },
         {
+          "group": "Campanhas",
+          "pages": [
+            "features/campain/create"
+          ]
+        },
+        {
           "group": "Etiquetas",
           "pages": [
             "features/labels/info",
