@@ -50,7 +50,7 @@
         {
           "group": "Campanhas",
           "pages": [
-            "features/campain/create"
+            "features/campain/list"
           ]
         },
         {
