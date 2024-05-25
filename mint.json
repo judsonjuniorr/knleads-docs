@@ -49,10 +49,7 @@
         },
         {
           "group": "Campanhas",
-          "pages": [
-            "features/campaign/list",
-            "features/campaign/create"
-          ]
+          "pages": ["features/campaign/list", "features/campaign/create"]
         },
         {
           "group": "Etiquetas",
@@ -75,12 +72,12 @@
       ]
     },
     {
-      "group": "Provedores",
+      "group": "Whatsapp",
       "pages": [
-        {
-          "group": "Whatsapp",
-          "pages": ["providers/whatsapp/info", "providers/whatsapp/create", "providers/whatsapp/optout", "providers/whatsapp/actions"]
-        }
+        "whatsapp/info",
+        "whatsapp/create",
+        "whatsapp/optout",
+        "whatsapp/actions"
       ]
     },
     {
