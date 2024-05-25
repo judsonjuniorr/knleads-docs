@@ -68,16 +68,16 @@
             "features/contacts/delete",
             "features/contacts/update"
           ]
+        },
+        {
+          "group": "Whatsapp",
+          "pages": [
+            "whatsapp/info",
+            "whatsapp/create",
+            "whatsapp/optout",
+            "whatsapp/actions"
+          ]
         }
-      ]
-    },
-    {
-      "group": "Whatsapp",
-      "pages": [
-        "whatsapp/info",
-        "whatsapp/create",
-        "whatsapp/optout",
-        "whatsapp/actions"
       ]
     },
     {
