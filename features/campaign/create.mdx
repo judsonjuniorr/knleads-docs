@@ -134,7 +134,25 @@ Para adicionar mensagens nas campanhas, o usuário deverá tocar no botão **Men
   />
 </Frame>
 
-Ao tocar no botão, o usuário será direcionado para o menu de escrita, onde poderá editar todo o conteúdo da mensagem. A mensagem pode ser editada com base em alguns tipos, no campo de seleção do tipo, o usuário poderá escolher o tipo de conteúdo como **Texto**, **Imagem/Vídeo**, **Votação** e **Contatos**.
+Ao tocar no botão, o usuário será direcionado para o menu de escrita, onde poderá editar todo o conteúdo da mensagem. A mensagem pode ser editada com base em alguns tipos, no campo de seleção **Tipo de mensagem**, o usuário poderá escolher o tipo de conteúdo que será inserido, assim como: **Texto**, **Imagem/Vídeo**, **Votação** e **Contatos**.
+
+
+O editor de mensagem possui dois modelos para que o usuário possa personalizar a escrita da mensagem, o editor pode ser alternado entre **Editor Visual** e **Editor Simples** conforme os modelos mostrados a seguir. 
+
+<Frame>
+  <img
+    className='block dark:hidden'
+    src='/images/campaign/full-editor-light.png'
+    alt='Add contact light'
+  />
+  <img
+    className='hidden dark:block'
+    src='/images/campaign/full-editor-dark.png'
+    alt='Add contact dark'
+  />
+</Frame>
+
+O **Editor Visual** possui uma barra de navegação com ícones para mudança do estilo da escrita, para aplicar as mudanças basta tocar no ícone para habilitar ou desabilitar o estilo. Ele possui as seguintes opções de texto: **negrito**, **itálico**, **tachado**, **lista não ordenada**, **lista ordenada**, **citação**, **código** e **bloco de código**.
 
 <Frame>
   <img
@@ -149,15 +167,41 @@ Ao tocar no botão, o usuário será direcionado para o menu de escrita, onde po
   />
 </Frame>
 
+<Note>
+  O **Editor Simples** apenas permite que o usuário digite a escrita normalmente sem as opções de formatação no estilo da mensagem.
+</Note>
+
+O usuário poderá fazer uso de ferramentas de customização para melhorar do conteúdo da mensagem, esses recursos permitem inserir variáveis e assistência com Inteligência Artificial. Para utilizar esses recursos o usuário deverá tocar nos botões **Variáveis** e **Assistência IA**, e utilizar os modelos disponíveis para a customização. 
+
+O usuário poderá inserir uma mensagem após a outra com tipos distintos confome mostrado anteriormente.
 <Frame>
   <img
     className='block dark:hidden'
-    src='/images/campaign/full-editor-light.png'
+    src='/images/campaign/Add-new-message-light.png'
     alt='Add contact light'
   />
   <img
     className='hidden dark:block'
-    src='/images/campaign/full-editor-dark.png'
+    src='/images/campaign/Add-new-message-dark.png'
     alt='Add contact dark'
   />
 </Frame>
+ 
+Quando mais de uma mensagem for adicionada à campanha, será apresentado ao usuário um campo onde o mesmo poderá editar os intervalos entre uma mensagem e outra.  
+
+<Frame>
+  <img
+    className='block dark:hidden'
+    src='/images/campaign/Interval-message-light.png'
+    alt='Add contact light'
+  />
+  <img
+    className='hidden dark:block'
+    src='/images/campaign/Interval-message-dark.png'
+    alt='Add contact dark'
+  />
+</Frame>
+
+<Note>
+  Caso não for inserido um intervalo de tempo entre as mensagens, elas serão enviadas simultaneamente uma após a outra sem nenhum espaço de tempo entre elas.
+</Note>
