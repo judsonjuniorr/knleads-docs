@@ -45,7 +45,7 @@ Ao navegar no menu o usuário encontrará um campo para adicionar suas etiquetas
   />
 </Frame>
 
-Ao tocar no botão uma nova janela será aberta onde o usuário poderá filtrar etiquetas para adicionar, esse campo permite a insersão de etiquetas já existentes onde mais de uma etiqueta poderá ser utilizada para identificar a campanha. Após adicionar uma etiqueta ela será listada. 
+Ao tocar no botão, uma nova janela será aberta, onde o usuário poderá filtrar etiquetas para adicionar. Esse campo permite a inserção de etiquetas já existentes, e mais uma etiqueta poderá ser utilizada para identificar a campanha. Após adicionar uma etiqueta, ela será listada.
 
 <Frame>
   <img
@@ -60,12 +60,25 @@ Ao tocar no botão uma nova janela será aberta onde o usuário poderá filtrar 
   />
 </Frame>
 
-Na adição de etiquetas em que existem os mesmos contatos, não haverá duplicidade de contatos, uma vez que as etiquetas serão agrupadas no envio. Desse modo, há uma restrição que impede que o mesmo contato possa receber o conteúdo duplicado. 
+Na adição de etiquetas em que existem os mesmos contatos, não haverá duplicidade de contatos, uma vez que as etiquetas serão agrupadas no envio. Desse modo, há uma restrição que impede que o mesmo contato possa receber o conteúdo duplicado.
 
 <Note>
   Caso o usuário deseje excluir uma etiqueta adicionada basta tocar no botão
   **Remover** na etiqueta.
 </Note>
+
+<Frame>
+  <img
+    className='block dark:hidden'
+    src='/images/campaign/remove-ticket-light.png'
+    alt='Add contact light'
+  />
+  <img
+    className='hidden dark:block'
+    src='/images/campaign/remove-ticket-dark.png'
+    alt='Add contact dark'
+  />
+</Frame>
 
 ## Adicionando e removendo contatos
 
@@ -84,4 +97,111 @@ Continuando a navegação no menu, o usuário encontrará um campo para adiciona
   />
 </Frame>
 
-Um ponto muito importante na adição de contatos está na visualização dos contatos no momento da inclusão, pois, apenas uma pequena parte dos contatos será apresentada na listagem para o usuário. Caso o usuário deseje adicionar um contato o qual não está na lista apresentada, ele deverá pesquisar pelo nome ou número do contato de modo individual para adicionar a lista. 
+Um ponto muito importante na adição de contatos está na visualização dos contatos no momento da inclusão, pois, apenas uma pequena parte dos contatos será apresentada na listagem para o usuário. Caso o usuário deseje adicionar um contato o qual não está na lista apresentada, ele deverá pesquisar pelo nome ou número do contato de modo individual para adicionar a lista.
+
+<Note>
+  Caso o usuário deseje excluir um contato adicionado basta tocar no botão
+  **Remover** no contato.
+</Note>
+
+<Frame>
+  <img
+    className='block dark:hidden'
+    src='/images/campaign/remove-contact-light.png'
+    alt='Add contact light'
+  />
+  <img
+    className='hidden dark:block'
+    src='/images/campaign/remove-contact-dark.png'
+    alt='Add contact dark'
+  />
+</Frame>
+
+## Adicionando mensagens
+
+Para adicionar mensagens nas campanhas, o usuário deverá tocar no botão **Mensagens** dentro do frasco no topo do menu.
+
+<Frame>
+  <img
+    className='block dark:hidden'
+    src='/images/campaign/add-message-light.png'
+    alt='Add contact light'
+  />
+  <img
+    className='hidden dark:block'
+    src='/images/campaign/add-message-dark.png'
+    alt='Add contact dark'
+  />
+</Frame>
+
+Ao tocar no botão, o usuário será direcionado para o menu de escrita, onde poderá editar todo o conteúdo da mensagem. A mensagem pode ser editada com base em alguns tipos, no campo de seleção **Tipo de mensagem**, o usuário poderá escolher o tipo de conteúdo que será inserido, assim como: **Texto**, **Imagem/Vídeo**, **Votação** e **Contatos**.
+
+
+O editor de mensagem possui dois modelos para que o usuário possa personalizar a escrita da mensagem, o editor pode ser alternado entre **Editor Visual** e **Editor Simples** conforme os modelos mostrados a seguir. 
+
+<Frame>
+  <img
+    className='block dark:hidden'
+    src='/images/campaign/full-editor-light.png'
+    alt='Add contact light'
+  />
+  <img
+    className='hidden dark:block'
+    src='/images/campaign/full-editor-dark.png'
+    alt='Add contact dark'
+  />
+</Frame>
+
+O **Editor Visual** possui uma barra de navegação com ícones para mudança do estilo da escrita, para aplicar as mudanças basta tocar no ícone para habilitar ou desabilitar o estilo. Ele possui as seguintes opções de texto: **negrito**, **itálico**, **tachado**, **lista não ordenada**, **lista ordenada**, **citação**, **código** e **bloco de código**.
+
+<Frame>
+  <img
+    className='block dark:hidden'
+    src='/images/campaign/simple-editor-light.png'
+    alt='Add contact light'
+  />
+  <img
+    className='hidden dark:block'
+    src='/images/campaign/simple-editor-dark.png'
+    alt='Add contact dark'
+  />
+</Frame>
+
+<Note>
+  O **Editor Simples** apenas permite que o usuário digite a escrita normalmente sem as opções de formatação no estilo da mensagem.
+</Note>
+
+O usuário poderá fazer uso de ferramentas de customização para melhorar do conteúdo da mensagem, esses recursos permitem inserir variáveis e assistência com Inteligência Artificial. Para utilizar esses recursos o usuário deverá tocar nos botões **Variáveis** e **Assistência IA**, e utilizar os modelos disponíveis para a customização. 
+
+O usuário poderá inserir uma mensagem após a outra com tipos distintos confome mostrado anteriormente.
+<Frame>
+  <img
+    className='block dark:hidden'
+    src='/images/campaign/add-new-message-light.png'
+    alt='Add contact light'
+  />
+  <img
+    className='hidden dark:block'
+    src='/images/campaign/add-new-message-dark.png'
+    alt='Add contact dark'
+  />
+</Frame>
+ 
+Quando mais de uma mensagem for adicionada à campanha, será apresentado ao usuário um campo onde o mesmo poderá editar os intervalos entre uma mensagem e outra.  
+
+<Frame>
+  <img
+    className='block dark:hidden'
+    src='/images/campaign/interval-message-light.png'
+    alt='Add contact light'
+  />
+  <img
+    className='hidden dark:block'
+    src='/images/campaign/interval-message-dark.png'
+    alt='Add contact dark'
+  />
+</Frame>
+
+<Note>
+  Caso não for inserido um intervalo de tempo entre as mensagens, elas serão enviadas simultaneamente uma após a outra sem nenhum espaço de tempo entre elas.
+</Note>
